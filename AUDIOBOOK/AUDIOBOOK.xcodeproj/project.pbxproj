@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC14B674181A31980052D904 /* TuDauChay.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14B673181A31980052D904 /* TuDauChay.m */; };
 		FCF909001817CF84007794DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF908FF1817CF84007794DA /* Foundation.framework */; };
 		FCF909021817CF84007794DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909011817CF84007794DA /* CoreGraphics.framework */; };
 		FCF909041817CF84007794DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909031817CF84007794DA /* UIKit.framework */; };
@@ -53,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC14B672181A31980052D904 /* TuDauChay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuDauChay.h; path = Controller/TuDauChay.h; sourceTree = "<group>"; };
+		FC14B673181A31980052D904 /* TuDauChay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuDauChay.m; path = Controller/TuDauChay.m; sourceTree = "<group>"; };
 		FCF908FC1817CF84007794DA /* AUDIOBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUDIOBOOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF908FF1817CF84007794DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCF909011817CF84007794DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -201,6 +204,8 @@
 				FCF909431817D338007794DA /* TheSecondViewController.m */,
 				FCF909441817D338007794DA /* ViewController.h */,
 				FCF909451817D338007794DA /* ViewController.m */,
+				FC14B672181A31980052D904 /* TuDauChay.h */,
+				FC14B673181A31980052D904 /* TuDauChay.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF909471817D338007794DA /* RightViewController.m in Sources */,
+				FC14B674181A31980052D904 /* TuDauChay.m in Sources */,
 				FCF909691817D37B007794DA /* SwipeNavigationController.m in Sources */,
 				FCF9090E1817CF84007794DA /* main.m in Sources */,
 				FCF9096A1817D37B007794DA /* touchTableView.m in Sources */,
@@ -568,6 +574,7 @@
 				FCF909301817CF84007794DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCF909311817CF84007794DA /* Build configuration list for PBXNativeTarget "AUDIOBOOKTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +583,7 @@
 				FCF909331817CF84007794DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
