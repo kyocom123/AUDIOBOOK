@@ -11,6 +11,7 @@
 		32D81E13181A4BA30031BB04 /* tétViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D81E12181A4BA30031BB04 /* tétViewController.m */; };
 		FCB1134A181A4AFA00B0BC83 /* TuDauChay.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB11349181A4AFA00B0BC83 /* TuDauChay.m */; };
 		FCB1134D181A4C5900B0BC83 /* FileMoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB1134C181A4C5900B0BC83 /* FileMoiViewController.m */; };
+		FCB11350181A4D9700B0BC83 /* FileMoi2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB1134F181A4D9700B0BC83 /* FileMoi2ViewController.m */; };
 		FCF909001817CF84007794DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF908FF1817CF84007794DA /* Foundation.framework */; };
 		FCF909021817CF84007794DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909011817CF84007794DA /* CoreGraphics.framework */; };
 		FCF909041817CF84007794DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909031817CF84007794DA /* UIKit.framework */; };
@@ -65,6 +66,8 @@
 		FCB11349181A4AFA00B0BC83 /* TuDauChay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuDauChay.m; path = Controller/TuDauChay.m; sourceTree = "<group>"; };
 		FCB1134B181A4C5900B0BC83 /* FileMoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileMoiViewController.h; path = Controller/FileMoiViewController.h; sourceTree = "<group>"; };
 		FCB1134C181A4C5900B0BC83 /* FileMoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileMoiViewController.m; path = Controller/FileMoiViewController.m; sourceTree = "<group>"; };
+		FCB1134E181A4D9700B0BC83 /* FileMoi2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileMoi2ViewController.h; path = Controller/FileMoi2ViewController.h; sourceTree = "<group>"; };
+		FCB1134F181A4D9700B0BC83 /* FileMoi2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileMoi2ViewController.m; path = Controller/FileMoi2ViewController.m; sourceTree = "<group>"; };
 		FCF908FC1817CF84007794DA /* AUDIOBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUDIOBOOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF908FF1817CF84007794DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCF909011817CF84007794DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -221,6 +224,8 @@
 				3230411C181A1BA300C506C6 /* test.m */,
 				FCB1134B181A4C5900B0BC83 /* FileMoiViewController.h */,
 				FCB1134C181A4C5900B0BC83 /* FileMoiViewController.m */,
+				FCB1134E181A4D9700B0BC83 /* FileMoi2ViewController.h */,
+				FCB1134F181A4D9700B0BC83 /* FileMoi2ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 				3230411D181A1BA300C506C6 /* test.m in Sources */,
 				FCF9090E1817CF84007794DA /* main.m in Sources */,
 				FCF9096A1817D37B007794DA /* touchTableView.m in Sources */,
+				FCB11350181A4D9700B0BC83 /* FileMoi2ViewController.m in Sources */,
 				FCF9094A1817D338007794DA /* ViewController.m in Sources */,
 				FCF909461817D338007794DA /* LeftViewController.m in Sources */,
 				FCF909481817D338007794DA /* SideBarViewController.m in Sources */,
