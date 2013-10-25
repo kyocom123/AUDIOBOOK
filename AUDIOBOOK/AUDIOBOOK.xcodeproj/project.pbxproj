@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCF909001817CF84007794DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF908FF1817CF84007794DA /* Foundation.framework */; };
+		FCF909021817CF84007794DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909011817CF84007794DA /* CoreGraphics.framework */; };
+		FCF909041817CF84007794DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909031817CF84007794DA /* UIKit.framework */; };
+		FCF909061817CF84007794DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909051817CF84007794DA /* CoreData.framework */; };
+		FCF9090C1817CF84007794DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCF9090A1817CF84007794DA /* InfoPlist.strings */; };
+		FCF9090E1817CF84007794DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9090D1817CF84007794DA /* main.m */; };
+		FCF909151817CF84007794DA /* AUDIOBOOK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCF909131817CF84007794DA /* AUDIOBOOK.xcdatamodeld */; };
+		FCF909171817CF84007794DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF909161817CF84007794DA /* Images.xcassets */; };
+		FCF9091E1817CF84007794DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF9091D1817CF84007794DA /* XCTest.framework */; };
+		FCF9091F1817CF84007794DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF908FF1817CF84007794DA /* Foundation.framework */; };
+		FCF909201817CF84007794DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909031817CF84007794DA /* UIKit.framework */; };
+		FCF909211817CF84007794DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909051817CF84007794DA /* CoreData.framework */; };
+		FCF909371817D262007794DA /* AUDIOBOOKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF909361817D262007794DA /* AUDIOBOOKAppDelegate.m */; };
+		FCF909461817D338007794DA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9093D1817D338007794DA /* LeftViewController.m */; };
+		FCF909471817D338007794DA /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9093F1817D338007794DA /* RightViewController.m */; };
+		FCF909481817D338007794DA /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF909411817D338007794DA /* SideBarViewController.m */; };
+		FCF909491817D338007794DA /* TheSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF909431817D338007794DA /* TheSecondViewController.m */; };
+		FCF9094A1817D338007794DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF909451817D338007794DA /* ViewController.m */; };
+		FCF909511817D344007794DA /* BACK_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FCF9094B1817D344007794DA /* BACK_1.JPG */; };
+		FCF909521817D344007794DA /* BACK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FCF9094C1817D344007794DA /* BACK_2.JPG */; };
+		FCF909531817D344007794DA /* BACK_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FCF9094D1817D344007794DA /* BACK_3.JPG */; };
+		FCF909541817D344007794DA /* BACK_4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FCF9094E1817D344007794DA /* BACK_4.JPG */; };
+		FCF909551817D344007794DA /* BACK_5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FCF9094F1817D344007794DA /* BACK_5.JPG */; };
+		FCF909561817D344007794DA /* BACK_6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FCF909501817D344007794DA /* BACK_6.JPG */; };
+		FCF9095B1817D356007794DA /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF909571817D355007794DA /* LeftViewController.xib */; };
+		FCF9095C1817D356007794DA /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF909581817D355007794DA /* RightViewController.xib */; };
+		FCF9095D1817D356007794DA /* SideBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF909591817D355007794DA /* SideBarViewController.xib */; };
+		FCF9095E1817D356007794DA /* TheSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF9095A1817D356007794DA /* TheSecondViewController.xib */; };
+		FCF909631817D366007794DA /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF9095F1817D366007794DA /* ViewController_iPad.xib */; };
+		FCF909641817D366007794DA /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF909611817D366007794DA /* ViewController_iPhone.xib */; };
+		FCF909691817D37B007794DA /* SwipeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF909661817D37B007794DA /* SwipeNavigationController.m */; };
+		FCF9096A1817D37B007794DA /* touchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF909681817D37B007794DA /* touchTableView.m */; };
+		FCF9096C1817D524007794DA /* BookDefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCF9096B1817D524007794DA /* BookDefault.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF909221817CF84007794DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF908F41817CF84007794DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF908FB1817CF84007794DA;
+			remoteInfo = AUDIOBOOK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCF908FC1817CF84007794DA /* AUDIOBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUDIOBOOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF908FF1817CF84007794DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCF909011817CF84007794DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCF909031817CF84007794DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCF909051817CF84007794DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FCF909091817CF84007794DA /* AUDIOBOOK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AUDIOBOOK-Info.plist"; sourceTree = "<group>"; };
+		FCF9090B1817CF84007794DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCF9090D1817CF84007794DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCF9090F1817CF84007794DA /* AUDIOBOOK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AUDIOBOOK-Prefix.pch"; sourceTree = "<group>"; };
+		FCF909141817CF84007794DA /* AUDIOBOOK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AUDIOBOOK.xcdatamodel; sourceTree = "<group>"; };
+		FCF909161817CF84007794DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCF9091C1817CF84007794DA /* AUDIOBOOKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUDIOBOOKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF9091D1817CF84007794DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCF909351817D262007794DA /* AUDIOBOOKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUDIOBOOKAppDelegate.h; path = Delegate/AUDIOBOOKAppDelegate.h; sourceTree = "<group>"; };
+		FCF909361817D262007794DA /* AUDIOBOOKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AUDIOBOOKAppDelegate.m; path = Delegate/AUDIOBOOKAppDelegate.m; sourceTree = "<group>"; };
+		FCF9093C1817D338007794DA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = Controller/LeftViewController.h; sourceTree = "<group>"; };
+		FCF9093D1817D338007794DA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = Controller/LeftViewController.m; sourceTree = "<group>"; };
+		FCF9093E1817D338007794DA /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightViewController.h; path = Controller/RightViewController.h; sourceTree = "<group>"; };
+		FCF9093F1817D338007794DA /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightViewController.m; path = Controller/RightViewController.m; sourceTree = "<group>"; };
+		FCF909401817D338007794DA /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideBarViewController.h; path = Controller/SideBarViewController.h; sourceTree = "<group>"; };
+		FCF909411817D338007794DA /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideBarViewController.m; path = Controller/SideBarViewController.m; sourceTree = "<group>"; };
+		FCF909421817D338007794DA /* TheSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheSecondViewController.h; path = Controller/TheSecondViewController.h; sourceTree = "<group>"; };
+		FCF909431817D338007794DA /* TheSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheSecondViewController.m; path = Controller/TheSecondViewController.m; sourceTree = "<group>"; };
+		FCF909441817D338007794DA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		FCF909451817D338007794DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		FCF9094B1817D344007794DA /* BACK_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACK_1.JPG; path = Image/BACK_1.JPG; sourceTree = "<group>"; };
+		FCF9094C1817D344007794DA /* BACK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACK_2.JPG; path = Image/BACK_2.JPG; sourceTree = "<group>"; };
+		FCF9094D1817D344007794DA /* BACK_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACK_3.JPG; path = Image/BACK_3.JPG; sourceTree = "<group>"; };
+		FCF9094E1817D344007794DA /* BACK_4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACK_4.JPG; path = Image/BACK_4.JPG; sourceTree = "<group>"; };
+		FCF9094F1817D344007794DA /* BACK_5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACK_5.JPG; path = Image/BACK_5.JPG; sourceTree = "<group>"; };
+		FCF909501817D344007794DA /* BACK_6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACK_6.JPG; path = Image/BACK_6.JPG; sourceTree = "<group>"; };
+		FCF909571817D355007794DA /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeftViewController.xib; path = Views/LeftViewController.xib; sourceTree = "<group>"; };
+		FCF909581817D355007794DA /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RightViewController.xib; path = Views/RightViewController.xib; sourceTree = "<group>"; };
+		FCF909591817D355007794DA /* SideBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SideBarViewController.xib; path = Views/SideBarViewController.xib; sourceTree = "<group>"; };
+		FCF9095A1817D356007794DA /* TheSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TheSecondViewController.xib; path = Views/TheSecondViewController.xib; sourceTree = "<group>"; };
+		FCF909601817D366007794DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FCF909621817D366007794DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FCF909651817D37B007794DA /* SwipeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeNavigationController.h; path = Utilities/SwipeNavigationController.h; sourceTree = "<group>"; };
+		FCF909661817D37B007794DA /* SwipeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeNavigationController.m; path = Utilities/SwipeNavigationController.m; sourceTree = "<group>"; };
+		FCF909671817D37B007794DA /* touchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = touchTableView.h; path = Utilities/touchTableView.h; sourceTree = "<group>"; };
+		FCF909681817D37B007794DA /* touchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = touchTableView.m; path = Utilities/touchTableView.m; sourceTree = "<group>"; };
+		FCF9096B1817D524007794DA /* BookDefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BookDefault.jpg; path = Image/BookDefault.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF908F91817CF84007794DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF909021817CF84007794DA /* CoreGraphics.framework in Frameworks */,
+				FCF909061817CF84007794DA /* CoreData.framework in Frameworks */,
+				FCF909041817CF84007794DA /* UIKit.framework in Frameworks */,
+				FCF909001817CF84007794DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF909191817CF84007794DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF9091E1817CF84007794DA /* XCTest.framework in Frameworks */,
+				FCF909211817CF84007794DA /* CoreData.framework in Frameworks */,
+				FCF909201817CF84007794DA /* UIKit.framework in Frameworks */,
+				FCF9091F1817CF84007794DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCF908F31817CF84007794DA = {
+			isa = PBXGroup;
+			children = (
+				FCF909071817CF84007794DA /* AUDIOBOOK */,
+				FCF908FE1817CF84007794DA /* Frameworks */,
+				FCF908FD1817CF84007794DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF908FD1817CF84007794DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF908FC1817CF84007794DA /* AUDIOBOOK.app */,
+				FCF9091C1817CF84007794DA /* AUDIOBOOKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF908FE1817CF84007794DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF908FF1817CF84007794DA /* Foundation.framework */,
+				FCF909011817CF84007794DA /* CoreGraphics.framework */,
+				FCF909031817CF84007794DA /* UIKit.framework */,
+				FCF909051817CF84007794DA /* CoreData.framework */,
+				FCF9091D1817CF84007794DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCF909071817CF84007794DA /* AUDIOBOOK */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9093B1817D317007794DA /* Utilities */,
+				FCF9093A1817D308007794DA /* Views */,
+				FCF909391817D2FA007794DA /* Image */,
+				FCF909381817D2EE007794DA /* Controller */,
+				FCF909341817D241007794DA /* Delegate */,
+				FCF909161817CF84007794DA /* Images.xcassets */,
+				FCF909131817CF84007794DA /* AUDIOBOOK.xcdatamodeld */,
+				FCF909081817CF84007794DA /* Supporting Files */,
+			);
+			path = AUDIOBOOK;
+			sourceTree = "<group>";
+		};
+		FCF909081817CF84007794DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCF909091817CF84007794DA /* AUDIOBOOK-Info.plist */,
+				FCF9090A1817CF84007794DA /* InfoPlist.strings */,
+				FCF9090D1817CF84007794DA /* main.m */,
+				FCF9090F1817CF84007794DA /* AUDIOBOOK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCF909341817D241007794DA /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FCF909351817D262007794DA /* AUDIOBOOKAppDelegate.h */,
+				FCF909361817D262007794DA /* AUDIOBOOKAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		FCF909381817D2EE007794DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9093C1817D338007794DA /* LeftViewController.h */,
+				FCF9093D1817D338007794DA /* LeftViewController.m */,
+				FCF9093E1817D338007794DA /* RightViewController.h */,
+				FCF9093F1817D338007794DA /* RightViewController.m */,
+				FCF909401817D338007794DA /* SideBarViewController.h */,
+				FCF909411817D338007794DA /* SideBarViewController.m */,
+				FCF909421817D338007794DA /* TheSecondViewController.h */,
+				FCF909431817D338007794DA /* TheSecondViewController.m */,
+				FCF909441817D338007794DA /* ViewController.h */,
+				FCF909451817D338007794DA /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FCF909391817D2FA007794DA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9096B1817D524007794DA /* BookDefault.jpg */,
+				FCF9094B1817D344007794DA /* BACK_1.JPG */,
+				FCF9094C1817D344007794DA /* BACK_2.JPG */,
+				FCF9094D1817D344007794DA /* BACK_3.JPG */,
+				FCF9094E1817D344007794DA /* BACK_4.JPG */,
+				FCF9094F1817D344007794DA /* BACK_5.JPG */,
+				FCF909501817D344007794DA /* BACK_6.JPG */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		FCF9093A1817D308007794DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9095F1817D366007794DA /* ViewController_iPad.xib */,
+				FCF909611817D366007794DA /* ViewController_iPhone.xib */,
+				FCF909571817D355007794DA /* LeftViewController.xib */,
+				FCF909581817D355007794DA /* RightViewController.xib */,
+				FCF909591817D355007794DA /* SideBarViewController.xib */,
+				FCF9095A1817D356007794DA /* TheSecondViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FCF9093B1817D317007794DA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FCF909651817D37B007794DA /* SwipeNavigationController.h */,
+				FCF909661817D37B007794DA /* SwipeNavigationController.m */,
+				FCF909671817D37B007794DA /* touchTableView.h */,
+				FCF909681817D37B007794DA /* touchTableView.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF908FB1817CF84007794DA /* AUDIOBOOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF9092E1817CF84007794DA /* Build configuration list for PBXNativeTarget "AUDIOBOOK" */;
+			buildPhases = (
+				FCF908F81817CF84007794DA /* Sources */,
+				FCF908F91817CF84007794DA /* Frameworks */,
+				FCF908FA1817CF84007794DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUDIOBOOK;
+			productName = AUDIOBOOK;
+			productReference = FCF908FC1817CF84007794DA /* AUDIOBOOK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCF9091B1817CF84007794DA /* AUDIOBOOKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF909311817CF84007794DA /* Build configuration list for PBXNativeTarget "AUDIOBOOKTests" */;
+			buildPhases = (
+				FCF909181817CF84007794DA /* Sources */,
+				FCF909191817CF84007794DA /* Frameworks */,
+				FCF9091A1817CF84007794DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF909231817CF84007794DA /* PBXTargetDependency */,
+			);
+			name = AUDIOBOOKTests;
+			productName = AUDIOBOOKTests;
+			productReference = FCF9091C1817CF84007794DA /* AUDIOBOOKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF908F41817CF84007794DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AUDIOBOOK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SALEM CAT";
+				TargetAttributes = {
+					FCF9091B1817CF84007794DA = {
+						TestTargetID = FCF908FB1817CF84007794DA;
+					};
+				};
+			};
+			buildConfigurationList = FCF908F71817CF84007794DA /* Build configuration list for PBXProject "AUDIOBOOK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCF908F31817CF84007794DA;
+			productRefGroup = FCF908FD1817CF84007794DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF908FB1817CF84007794DA /* AUDIOBOOK */,
+				FCF9091B1817CF84007794DA /* AUDIOBOOKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF908FA1817CF84007794DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF909631817D366007794DA /* ViewController_iPad.xib in Resources */,
+				FCF9090C1817CF84007794DA /* InfoPlist.strings in Resources */,
+				FCF9095C1817D356007794DA /* RightViewController.xib in Resources */,
+				FCF9095B1817D356007794DA /* LeftViewController.xib in Resources */,
+				FCF909171817CF84007794DA /* Images.xcassets in Resources */,
+				FCF9095E1817D356007794DA /* TheSecondViewController.xib in Resources */,
+				FCF909511817D344007794DA /* BACK_1.JPG in Resources */,
+				FCF9096C1817D524007794DA /* BookDefault.jpg in Resources */,
+				FCF909641817D366007794DA /* ViewController_iPhone.xib in Resources */,
+				FCF909521817D344007794DA /* BACK_2.JPG in Resources */,
+				FCF909531817D344007794DA /* BACK_3.JPG in Resources */,
+				FCF909551817D344007794DA /* BACK_5.JPG in Resources */,
+				FCF909541817D344007794DA /* BACK_4.JPG in Resources */,
+				FCF909561817D344007794DA /* BACK_6.JPG in Resources */,
+				FCF9095D1817D356007794DA /* SideBarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF9091A1817CF84007794DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF908F81817CF84007794DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF909471817D338007794DA /* RightViewController.m in Sources */,
+				FCF909691817D37B007794DA /* SwipeNavigationController.m in Sources */,
+				FCF9090E1817CF84007794DA /* main.m in Sources */,
+				FCF9096A1817D37B007794DA /* touchTableView.m in Sources */,
+				FCF9094A1817D338007794DA /* ViewController.m in Sources */,
+				FCF909461817D338007794DA /* LeftViewController.m in Sources */,
+				FCF909481817D338007794DA /* SideBarViewController.m in Sources */,
+				FCF909151817CF84007794DA /* AUDIOBOOK.xcdatamodeld in Sources */,
+				FCF909491817D338007794DA /* TheSecondViewController.m in Sources */,
+				FCF909371817D262007794DA /* AUDIOBOOKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF909181817CF84007794DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCF909231817CF84007794DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF908FB1817CF84007794DA /* AUDIOBOOK */;
+			targetProxy = FCF909221817CF84007794DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCF9090A1817CF84007794DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF9090B1817CF84007794DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCF9095F1817D366007794DA /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF909601817D366007794DA /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		FCF909611817D366007794DA /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF909621817D366007794DA /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCF9092C1817CF84007794DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCF9092D1817CF84007794DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCF9092F1817CF84007794DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUDIOBOOK/AUDIOBOOK-Prefix.pch";
+				INFOPLIST_FILE = "AUDIOBOOK/AUDIOBOOK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCF909301817CF84007794DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUDIOBOOK/AUDIOBOOK-Prefix.pch";
+				INFOPLIST_FILE = "AUDIOBOOK/AUDIOBOOK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCF909321817CF84007794DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUDIOBOOK.app/AUDIOBOOK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUDIOBOOK/AUDIOBOOK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AUDIOBOOKTests/AUDIOBOOKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCF909331817CF84007794DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUDIOBOOK.app/AUDIOBOOK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUDIOBOOK/AUDIOBOOK-Prefix.pch";
+				INFOPLIST_FILE = "AUDIOBOOKTests/AUDIOBOOKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF908F71817CF84007794DA /* Build configuration list for PBXProject "AUDIOBOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF9092C1817CF84007794DA /* Debug */,
+				FCF9092D1817CF84007794DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF9092E1817CF84007794DA /* Build configuration list for PBXNativeTarget "AUDIOBOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF9092F1817CF84007794DA /* Debug */,
+				FCF909301817CF84007794DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCF909311817CF84007794DA /* Build configuration list for PBXNativeTarget "AUDIOBOOKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF909321817CF84007794DA /* Debug */,
+				FCF909331817CF84007794DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCF909131817CF84007794DA /* AUDIOBOOK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCF909141817CF84007794DA /* AUDIOBOOK.xcdatamodel */,
+			);
+			currentVersion = FCF909141817CF84007794DA /* AUDIOBOOK.xcdatamodel */;
+			path = AUDIOBOOK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCF908F41817CF84007794DA /* Project object */;
+}
