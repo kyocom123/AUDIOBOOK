@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3230411D181A1BA300C506C6 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3230411C181A1BA300C506C6 /* test.m */; };
+		FCB1134A181A4AFA00B0BC83 /* TuDauChay.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB11349181A4AFA00B0BC83 /* TuDauChay.m */; };
 		FCF909001817CF84007794DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF908FF1817CF84007794DA /* Foundation.framework */; };
 		FCF909021817CF84007794DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909011817CF84007794DA /* CoreGraphics.framework */; };
 		FCF909041817CF84007794DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF909031817CF84007794DA /* UIKit.framework */; };
@@ -56,6 +57,8 @@
 /* Begin PBXFileReference section */
 		3230411B181A1BA300C506C6 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = Controller/test.h; sourceTree = "<group>"; };
 		3230411C181A1BA300C506C6 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = test.m; path = Controller/test.m; sourceTree = "<group>"; };
+		FCB11348181A4AFA00B0BC83 /* TuDauChay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuDauChay.h; path = Controller/TuDauChay.h; sourceTree = "<group>"; };
+		FCB11349181A4AFA00B0BC83 /* TuDauChay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuDauChay.m; path = Controller/TuDauChay.m; sourceTree = "<group>"; };
 		FCF908FC1817CF84007794DA /* AUDIOBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUDIOBOOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF908FF1817CF84007794DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCF909011817CF84007794DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -194,6 +197,8 @@
 		FCF909381817D2EE007794DA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCB11348181A4AFA00B0BC83 /* TuDauChay.h */,
+				FCB11349181A4AFA00B0BC83 /* TuDauChay.m */,
 				FCF9093C1817D338007794DA /* LeftViewController.h */,
 				FCF9093D1817D338007794DA /* LeftViewController.m */,
 				FCF9093E1817D338007794DA /* RightViewController.h */,
@@ -366,6 +371,7 @@
 				FCF909481817D338007794DA /* SideBarViewController.m in Sources */,
 				FCF909151817CF84007794DA /* AUDIOBOOK.xcdatamodeld in Sources */,
 				FCF909491817D338007794DA /* TheSecondViewController.m in Sources */,
+				FCB1134A181A4AFA00B0BC83 /* TuDauChay.m in Sources */,
 				FCF909371817D262007794DA /* AUDIOBOOKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
