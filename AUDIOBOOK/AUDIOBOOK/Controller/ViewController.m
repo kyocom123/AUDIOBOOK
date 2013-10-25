@@ -22,7 +22,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    CGSize thisFrameSize = self.view.frame.size;
+    //CGSize thisFrameSize = self.view.frame.size;
     //add tabview
     if (!_tableView) {
         UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
