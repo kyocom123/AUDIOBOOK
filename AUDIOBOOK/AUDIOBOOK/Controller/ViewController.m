@@ -35,22 +35,22 @@
 
     
     
-    UIImage *img = [UIImage imageNamed:@"My_Bookshelf_by_sardao.jpg"];
+//    UIImage *img = [UIImage imageNamed:@"My_Bookshelf_by_sardao.jpg"];
+//    UIGraphicsBeginImageContext( thisFrameSize );
+//    [img drawInRect:CGRectMake(0,0,thisFrameSize.width,thisFrameSize.height)];
+//    UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
+//    UIGraphicsEndImageContext();
+//    self.view.backgroundColor =[UIColor colorWithPatternImage:newImage];
     
-    UIGraphicsBeginImageContext( thisFrameSize );
-    [img drawInRect:CGRectMake(0,0,thisFrameSize.width,thisFrameSize.height)];
-    UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    self.view.backgroundColor =[UIColor colorWithPatternImage:newImage];
     UIImageView *image=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
-    image.backgroundColor = [UIColor blueColor];
+    image.backgroundColor = [UIColor colorWithRed:0.68f green:0.53f blue:0.25f alpha:1.00f];
     UILabel *lab=[[UILabel alloc]initWithFrame:CGRectMake(100, 17, 160, 30)];
     lab.text = @"SÁCH NÓI VIỆT";
-    lab.textColor = [UIColor redColor];
+    lab.textColor = [UIColor blackColor];
     lab.backgroundColor = [UIColor clearColor];
     [self.view addSubview:image];
     [self.view addSubview:lab];
+    
 	// Do any additional setup after loading the view, typically from a nib.
     self.title = @"firstView";
  //   self.view.userInteractionEnabled=YES;
