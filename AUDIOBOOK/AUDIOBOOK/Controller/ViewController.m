@@ -44,7 +44,7 @@
     
     self.view.backgroundColor =[UIColor colorWithPatternImage:newImage];
     UIImageView *image=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
-    image.backgroundColor = [UIColor yellowColor];
+    image.backgroundColor = [UIColor blueColor];
     UILabel *lab=[[UILabel alloc]initWithFrame:CGRectMake(100, 17, 160, 30)];
     lab.text = @"SÁCH NÓI VIỆT";
     lab.textColor = [UIColor redColor];
