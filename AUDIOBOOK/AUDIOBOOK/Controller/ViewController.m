@@ -147,13 +147,43 @@
     //cell.imageView.image = [UIImage imageNamed:@"BookDefault.jpg"];
     //cell.textLabel.text = [NSString stringWithFormat:@"sach thu %i", indexPath.row];
     
+    
+    
     return cell;
     
 }
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+
 }
+- (void)scrollViewDidEndDragging:(UIScrollView *)aScrollView
+                  willDecelerate:(BOOL)decelerate{
+    
+    CGPoint offset = aScrollView.contentOffset;
+    CGRect bounds = aScrollView.bounds;
+    CGSize size = aScrollView.contentSize;
+    UIEdgeInsets inset = aScrollView.contentInset;
+    float y = offset.y + bounds.size.height - inset.bottom;
+    float h = size.height;
+    
+    float reload_distance = 50;
+    if(y > h + reload_distance) {
+        NSLog(@"load more rows");
+    }
+    else if(y < 10) {
+        NSLog(@"load more top");
+    }
+}
+
+- (void)scrollToRowAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UITableViewScrollPosition)scrollPosition animated:(BOOL)animated
+{
+    indexPath = [NSIndexPath indexPathForRow:3 inSection:0];
+    [self.tableView scrollToRowAtIndexPath:indexPath
+                         atScrollPosition:UITableViewScrollPositionTop
+                                 animated:YES];
+}
+
 
 @end

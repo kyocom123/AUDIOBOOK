@@ -14,7 +14,7 @@
 		<string>https://github.com/kyocom123/AUDIOBOOK/trunk</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AUDIOBOOK/AUDIOBOOK.xcodeproj/project.xcworkspace</string>
+	<string>trunk/AUDIOBOOK/AUDIOBOOK.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>90AD34D1-9D91-4C32-ABA5-D2695DF92EA0</key>
