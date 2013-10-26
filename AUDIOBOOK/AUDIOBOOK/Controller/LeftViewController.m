@@ -8,6 +8,7 @@
 
 #import "LeftViewController.h"
 #import "ViewController.h"
+#import "TheSecondViewController.h"
 @interface LeftViewController ()
 
 @end
@@ -15,7 +16,6 @@
 @implementation LeftViewController
 {
     NSArray *datalist;
-    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -37,7 +37,6 @@
     }
 
 }
-
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [datalist count];
@@ -60,7 +59,9 @@
          [_delegate leftSideBarSelectWithController:nil];
      }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
 }
+
 -(UIViewController *)subConWithIndex:(int)index
 {
     ViewController *vc=[[ViewController alloc]initWithNibName:@"ViewController_iPhone" bundle:nil];

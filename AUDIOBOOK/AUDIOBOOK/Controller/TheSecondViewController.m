@@ -51,7 +51,13 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
+    
+    UIAlertView *messageAlert = [[UIAlertView alloc]
+                                 initWithTitle:@"Row Selected" message:@"hi tu dau chay" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [messageAlert show];
+    
     self.title = @"SecondView";
     UIImageView *image=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
     image.backgroundColor = [UIColor yellowColor];

@@ -157,6 +157,9 @@
 - (void)tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 
+    TheSecondViewController *vc = [[TheSecondViewController alloc]init];
+    vc.screenShotsList = screenShot;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 - (void)scrollViewDidEndDragging:(UIScrollView *)aScrollView
                   willDecelerate:(BOOL)decelerate{
